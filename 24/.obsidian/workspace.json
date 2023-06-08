@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API.md",
+                "file": "Introduction à React et TypeScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Résume.md",
+                "file": "Introduction à React et TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Résume.md",
+                "file": "Introduction à React et TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Résume.md"
+                "file": "Introduction à React et TypeScript.md"
               }
             }
           }
@@ -227,20 +227,20 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "381b24d0f82ea8cc",
+  "active": "1d37c9d88cd48cdb",
   "lastOpenFiles": [
     "API.md",
     "Définition.md",
+    "Résume.md",
     "07.06.2023.md",
     "JavaScript.md",
-    "Résume.md",
     "Resume.md",
     "Pasted image 20230606162053.png",
     "MySQL.md",
     "MongoDB.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
-    "SLAM.md",
+    "Introduction à React et TypeScript.md",
     "Pasted image 20230606162125.png",
     "Pasted image 20230606162138.png",
     "Pasted image 20230606162231.png",
