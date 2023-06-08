@@ -31,44 +31,51 @@ L'une des principales caractéristiques de React est l'utilisation d'un DOM virt
 
 React utilise une syntaxe appelée JSX, qui ressemble à du HTML mais qui est en réalité une extension de JavaScript. Le JSX permet d'écrire du code JavaScript et du code HTML dans un seul fichier. Voici quelques points clés à retenir
 
-
-
-
-
-
-
-
-
-
-
-# Introduction à React
-
-React est une bibliothèque JavaScript open-source largement utilisée pour la création d'interfaces utilisateur interactives. Elle a été développée par Facebook et est utilisée par de nombreuses entreprises et développeurs à travers le monde. React permet de construire des applications web modernes en utilisant des composants réutilisables. L'un des principaux avantages de React est sa capacité à mettre à jour de manière efficace et optimisée uniquement les parties de l'interface utilisateur qui ont changé, plutôt que de recharger toute la page.
-
-## Avantages de React
-
-React présente plusieurs avantages par rapport à d'autres bibliothèques et frameworks JavaScript :
-
-1. **Modularité** : React encourage une approche modulaire en divisant l'interface utilisateur en petits composants réutilisables. Cette modularité permet de développer et de maintenir plus facilement le code, en le rendant plus lisible et en facilitant les tests unitaires.
-    
-2. **Réutilisabilité des composants** : Les composants sont la pierre angulaire de React. Ils sont conçus pour être réutilisables, ce qui permet de gagner du temps et de l'effort lors du développement d'une application. Les composants peuvent être utilisés à plusieurs endroits de l'application et facilitent la gestion des mises à jour et des modifications.
-    
-3. **Gestion efficace de l'état** : React facilite la gestion de l'état de l'application grâce à son concept de "State". Le State est un objet JavaScript qui représente l'état actuel d'un composant. Lorsque le State change, React met à jour de manière efficace et optimisée les parties de l'interface utilisateur concernées, ce qui améliore les performances de l'application.
-    
-4. **Performances optimisées** : React utilise un DOM virtuel (Virtual DOM) pour mettre à jour l'interface utilisateur de manière efficace. Plutôt que de manipuler directement le DOM réel, React crée une représentation virtuelle de l'interface utilisateur dans la mémoire. Cette représentation virtuelle est ensuite comparée à la version réelle du DOM, et seules les différences sont appliquées. Cela permet de minimiser les manipulations du DOM réel et d'améliorer les performances de l'application.
-    
-5. **Large communauté et écosystème** : React bénéficie d'une communauté active et d'un vaste écosystème de bibliothèques, d'outils et de ressources. Cela facilite l'apprentissage, le partage de connaissances et la résolution des problèmes rencontrés lors du développement avec React.
-    
-
-## JSX (JavaScript XML)
-
-React utilise une syntaxe appelée JSX, qui ressemble à du HTML mais qui est en réalité une extension de JavaScript. Le JSX permet d'écrire du code JavaScript et du code HTML dans un seul fichier, ce qui simplifie la création et la manipulation des composants.
-
-Dans le JSX, on peut écrire des balises HTML ainsi que du code JavaScript entre accolades {}. Cela permet d'intégrer facilement des expressions, des variables, des boucles et des conditions dans le code JSX. Le JSX est ensuite transpilé en JavaScript valide par le compilateur de React.
-
 Voici un exemple de code JSX :
 
 ```jsx
 `import React from 'react';  function App() {   const name = 'John Doe';   return <h`
 ```
 
+
+
+
+# API
+
+
+API : application web
+
+get/uri = req ----> JSON = res
+
+fichier d'entrée : Index.js, App.js etc... 
+
+
+Index.js, App.js, main.js... :
+|
+|--> moddels : gère db => mongoose
+|
+Route --> express.routeur()
+         | --> Controller
+|
+|Express() => app.listen(3003)
+|
+
+Next => fonction qui prend la requête et la passe a la fonction suivante.
+
+
+Fonction qui prend la requête, la réponse et la fonction suivante :
+
+````js
+(req, res, next) => {
+
+  console.log(req.test);
+
+  next();
+
+}
+`````
+
+req.test : objet 
+
+
+recuperer la requete et l'envoyer a tout les sevices

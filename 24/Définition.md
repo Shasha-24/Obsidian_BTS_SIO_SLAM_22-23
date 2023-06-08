@@ -74,4 +74,15 @@ attribue value
 routeur ; express; controller les route en http
 spéifier de manière plus precise la requête http
 
+## **REST**
+
+REST (Representational State Transfer) est un style d'architecture logicielle utilisé pour concevoir des systèmes web.
+Il repose sur un ensemble de principes et de contraintes qui favorisent la scalabilité, la fiabilité et l'interopérabilité des applications. 
+L'approche REST utilise le protocole HTTP (Hypertext Transfer Protocol) comme base de communication entre les clients et les serveurs. Elle se caractérise par l'utilisation des verbes HTTP (GET, POST, PUT, DELETE, etc.) pour effectuer des opérations sur des ressources, qui sont identifiées par des URL (Uniform Resource Locators). 
+REST encourage une conception orientée ressources, où chaque ressource est accessible via une URL unique et peut être manipulée de manière indépendante.
+
+## **Node JS**
+
+Node.js est un environnement d'exécution JavaScript côté serveur, permettant d'exécuter du code JavaScript en dehors d'un navigateur web. Manière efficace et rapide. Node.js permet de créer des applications réseau hautement évolutives en utilisant une approche orientée événements et basée sur des opérations d'entrée/sortie non bloquantes. Il est largement utilisé pour la création de serveurs web, de services web, d'applications en temps réel et bien plus encore.
+
 

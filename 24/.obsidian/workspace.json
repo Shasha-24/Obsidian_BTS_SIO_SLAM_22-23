@@ -76,19 +76,31 @@
             }
           },
           {
-            "id": "ebe90b93f807b498",
+            "id": "63fed9b9b5061fcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resume.md",
+                "file": "JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef8aac2dfcf38b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Résume.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07.06.2023.md",
+                "file": "Résume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07.06.2023.md",
+                "file": "Résume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07.06.2023.md"
+                "file": "Résume.md"
               }
             }
           }
@@ -215,18 +227,20 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "4c620a8a214b7620",
+  "active": "381b24d0f82ea8cc",
   "lastOpenFiles": [
+    "API.md",
+    "Définition.md",
+    "07.06.2023.md",
+    "JavaScript.md",
+    "Résume.md",
+    "Resume.md",
+    "Pasted image 20230606162053.png",
+    "MySQL.md",
     "MongoDB.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
-    "Pasted image 20230606162053.png",
     "SLAM.md",
-    "07.06.2023.md",
-    "Définition.md",
-    "API.md",
-    "Resume.md",
-    "Résume.md",
     "Pasted image 20230606162125.png",
     "Pasted image 20230606162138.png",
     "Pasted image 20230606162231.png",
