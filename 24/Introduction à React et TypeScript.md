@@ -106,6 +106,14 @@ Application web
 
 npm i -D nodemon 
 
+## MERN
+
+mongo, express,  React, Node JS
+
+Pourquoi on choisis cette stack ?
+
+parce qu'il y a du JavaScript de partout  
+
 
 
 

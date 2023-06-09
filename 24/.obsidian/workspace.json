@@ -11,8 +11,12 @@
             "id": "bfca07cd452c4db0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Définition.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -93,10 +97,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Résume.md",
+                "file": "REST.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "e9f45d4a9d2e64f4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -227,20 +239,25 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "1d37c9d88cd48cdb",
+  "active": "683e9511e676615d",
   "lastOpenFiles": [
-    "API.md",
     "Définition.md",
-    "Résume.md",
     "07.06.2023.md",
+    "API.md",
+    "Sans titre.md",
+    "REST.md",
     "JavaScript.md",
-    "Resume.md",
+    "Résume.md",
+    "Pasted image 20230608163109.png",
+    "uri 2.png",
     "Pasted image 20230606162053.png",
+    "Pasted image 20230608162627.png",
+    "Introduction à React et TypeScript.md",
+    "Resume.md",
     "MySQL.md",
     "MongoDB.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
-    "Introduction à React et TypeScript.md",
     "Pasted image 20230606162125.png",
     "Pasted image 20230606162138.png",
     "Pasted image 20230606162231.png",
