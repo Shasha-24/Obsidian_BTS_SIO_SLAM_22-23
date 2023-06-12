@@ -26,7 +26,7 @@ Les composants sont les blocs de construction fondamentaux de React. Ils permett
 
 Dans cet exemple, nous déclarons un composant `MyComponent` qui reçoit une propriété `name` de type `string`. Le composant affiche ensuite "Hello, {name}!" à l'écran.
 
-# **Utilisation des composants :** 
+## **Utilisation des composants :** 
 
 
 Une fois que vous avez créé un composant, vous pouvez l'utiliser dans d'autres composants ou dans le point d'entrée de votre application. Voici un exemple d'utilisation de `MyComponent` dans un autre composant :
@@ -113,8 +113,5 @@ mongo, express,  React, Node JS
 Pourquoi on choisis cette stack ?
 
 parce qu'il y a du JavaScript de partout  
-
-
-
 
 
