@@ -65,7 +65,7 @@ Certain d'entre eux sont :
 
 #### Revendication publiques
 
-Celles-ci peuvent être définies à volonté par ceux qui utilisent les JWT. Mais pour éviter les collisions, ils doivent être définis dans le registre de jetons Web IANA JSON ou être définis comme un URI contenant un espace de nom résistant aux collisions.
+Celles-ci peuvent être définies à volonté par ceux qui utilisent les JWT. Mais pour éviter les collisions, ils doivent être définis dans le registre de jetons Web IANA JSON ou être définis comme un URL contenant un espace de nom résistant aux collisions.
 
 #### Revendication privées
 
@@ -81,6 +81,26 @@ Exemple de charge utile:
 }
 `````
 
+
+La charge utile est ensuite encodée en **Base64Url** pour former la deuxième partie du jeton Web JSON.
+
+=> Les jetons signés, les informations bien que protégées contre la falsification, sont lisibles par n'importe qui. Ne mettez pas d'informations secrètes dans les éléments de charge utile ou d'entête d'un jeton JWT à moins qu'ils ne soient chiffrés
+
+
+### Signature
+
+Pour créer la partie signature, vous devez prendre l'entête encodé, la charge utile encodée, un secret, l'algorithme spécifié dans l'entête et le signer.
+
+Par exemple, si on utilise utilise l'algorithme HMAC SHA256, la signature sera créée de cette façon:
+
+````
+HMACSHA256(
+	base64UrlEncode(header) + "." +
+	base64UrlEncode(payload),
+	secret)
+`````
+
+La signature est utilisée pour vérifier que le message n'a pas été modifié en cours de route et, dans le cas de jetons signé avec une clé privée, elle peut également vérifier que l'expéditeur du JWT est celui qu'il prétend être.
 
 
 
